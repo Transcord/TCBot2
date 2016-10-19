@@ -55,7 +55,7 @@ bot.on("serverNewMember", function(server, user) {
   }
 });
 
-bot.login(config.user.email, config.user.password, function(err, token) {
+bot.loginWithToken(config.user.token, config.user.email, config.user.password, function(err, token) {
   if (err) {
     console.log("Login error: " + err);
     return;
