@@ -1,0 +1,17 @@
+// copy this file to config/config.js after filling it out
+
+module.exports = {
+  user: {
+    token: "BOT TOKEN FOR FUTURE USE",
+    email: "BOT ACCOUNT USERNAME",
+    password: "BOT ACCOUNT PASSWORD"
+  },
+  invites: {
+    mainServer: "https://discord.gg/0jQI89T7A8Emi9AO",
+    adminServer: "https://discord.gg/HnjeWsd"
+  },
+  mongoConnectionUri: "mongodb://localhost:27017/tcbot",
+  modChannelName: "staff-call",
+  banWarningLogChannel: "ban-warning-log",
+  entryChannel: "entry"
+}

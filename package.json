@@ -1,0 +1,20 @@
+{
+  "name": "transcordbot2",
+  "version": "1.0.0",
+  "description": "A bot to perform common admin duties on Transcord, with a few extras thrown in",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Transcord/TCBot2.git"
+  },
+  "scripts": {
+    "start": "supervisor index.js"
+  },
+  "author": "Cassandra Cruz <celkamada@gmail.com> (http://lambdatastic.github.io), Ashley Hutson <asheliahut@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^8.1.0",
+    "mongoose": "^4.5.4",
+    "ramda": "^0.19.1"
+  }
+}
