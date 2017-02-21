@@ -7,8 +7,7 @@ module.exports = {
     password: "BOT ACCOUNT PASSWORD"
   },
   invites: {
-    mainServer: "https://discord.gg/0jQI89T7A8Emi9AO",
-    adminServer: "https://discord.gg/HnjeWsd"
+    mainServer: "https://discord.gg/0jQI89T7A8Emi9AO"
   },
   mongoConnectionUri: "mongodb://localhost:27017/tcbot",
   modChannelName: "staff-call",
